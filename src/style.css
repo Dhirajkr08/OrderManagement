@@ -1,0 +1,22 @@
+
+.shadow-card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+}
+.shadow-card:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.height-match {
+    min-height: 56px; /* This matches the height of input fields (p-3 in Tailwind) */
+}
+/* style.css */
+.list-item {
+    display: flex;
+    justify-content: space-between; /* Space between content and buttons */
+    align-items: center; /* Center items vertically */
+    padding: 10px; /* Add some padding */
+}
+
+.list-item button {
+    margin-left: 5px; /* Space between buttons */
+}
